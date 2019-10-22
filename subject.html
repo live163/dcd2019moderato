@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>subject</title>
+        <link href="basic.css" rel="stylesheet" type="text/css">
+        <style>
+            #partSub{
+                margin: 120px 0px;
+            }
+
+            .part{
+                margin-top: 90px;
+            }
+
+            [class ^=sub]{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.5em;
+                font-weight: 600;
+            }
+
+
+        </style>
+        <script src="js/jquery.js"></script>
+        <script>
+        $(function(){
+            $(".subWeb").mouseenter(function(){
+                $(".subWeb").text("Web Design");
+            });
+            $(".subWeb").mouseleave(function(){
+                $(".subWeb").text("WEB DESIGN");
+            });
+            //
+            $(".subInt").mouseenter(function(){
+                $(".subInt").text("Interactive Media");
+            });
+            $(".subInt").mouseleave(function(){
+                $(".subInt").text("INTERACTIVE MEDIA");
+            });
+            //
+            $(".subMul").mouseenter(function(){
+                $(".subMul").text("Multimedia Design");
+            });
+            $(".subMul").mouseleave(function(){
+                $(".subMul").text("MULTIMEDIA DESIGN");
+            });
+            //
+            $(".subMed").mouseenter(function(){
+                $(".subMed").text("Moving Image Animation");
+            });
+            $(".subMed").mouseleave(function(){
+                $(".subMed").text("MOVING IMAGE ANIMATION");
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div id=wrapper>
+            <div id=header>
+                <div id="logo">
+                    <a href="index.html">MODERATO</a>
+                </div>
+                
+                <ul id="menu">
+                    <li><a href="name.html">NAME</a></li> 
+                    <li><a href="subject.html">SUBJECT</a></li>
+                </ul>
+            </div>
+
+            <div id="partSub">
+                <div class="part">
+                    <img src="subject/line2.png">
+                    <a href="subject/web/web.html">    
+                        <span class="subWeb">WEB DESIGN</span>
+                    </a>
+                </div>
+                <div class="part">
+                    <img src="subject/line4.png">
+                    <a href="subject/interactive/interac.html">
+                        <span class="subInt">INTERACTIVE MEDIA</span>
+                    </a>
+                </div>
+                <div class="part">
+                    <img src="subject/line3.png">
+                    <a href="subject/multimedia/multi.html">
+                        <span class="subMul">MULTIMEDIA DESIGN</span>
+                    </a>
+                </div>
+                <div class="part">
+                    <img src="subject/line1.png">
+                    <a href="subject/animation/anima.html">
+                        <span class="subMed">MOVING IMAGE ANIMATION</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    </html>

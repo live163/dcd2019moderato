@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+
+table{
+    margin: 0% auto;
+}
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: #f63f14;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align:right;
+    margin-right: 25px;
+    float: right;
+}
+
+li{
+    display:inline-block;
+    padding:0 20px;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+}
+
+.subTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.inTex{
+    font-family: 'Malgun Gothic';
+    font-size: 14px;
+}
+
+.subNam{
+    margin: 10px;
+    width: 700px;
+    height: 300px;
+}
+
+
+#sub1{
+    margin-top: 800px;
+    margin-left: 300px;
+}
+
+#sub2{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#sub3{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.kor{
+    font-family: 'Malgun Gothic';
+    font-size: 1em;
+}
+
+.subnnn{
+    color: #b6b5b6;
+}
+
+.subImg{
+    margin: 10px;
+    margin-right: 30px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
