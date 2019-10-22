@@ -1,0 +1,14 @@
+제목 : 컴페핏션 COMPEFiTTION
+
+
+설명 : 하루에 한 코스, 친구들과 완주 !
+다이어트를 다짐하며 혼자 헬스장에 가서 운동을 해보 지만, 헬스장에 하루 이틀 빠지다보면 운동을 지속하는 것은 참 어려운 일이라는 것을 깨닳는다.
+위치기반 내가 사는 곳 주변 코스를 선택하고, 실시간 으로 측정되는 걸음수 데이터, 나를 따라 움직이는 귀 여운 아바타와 함께 운동을 시작해보자.          
+친구들은 물론 주변 지인들과 함께 지도에 떨어진 획기 적인 아이템을 사용해 경쟁 또는 협력하며 코스를 완주 해보는 것은 어떨까?
+기존에 없던 실용어플과 게임어플 중간 성격의 UI/UX 를 위하여, 수많은 실패와 시도 끝에 탄생한 어플리케 이션 컴페핏션을 소개한다.
+
+One course a day, complete with friends!
+go to the gym alone and work out for a day or two, but when away from the gym, realize that it's very difficult to keep exercising.
+Choose the course around where I live, and start exercising with the walk data that is measured in real time, the cute avatar keep moves as same as me.          
+How about try to complete the course by competing or collaborating with your friends, as well as your acquaintances, using various items that fell on the map?
+UI/UX which has a halfway character between practical and game application COMPEFiTION is introducing to you guys after numerous failures and attempts.
