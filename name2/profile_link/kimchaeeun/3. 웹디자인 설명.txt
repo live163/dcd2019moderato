@@ -1,0 +1,6 @@
+제목 : 채다디자인 Cheda Design
+
+설명 : 2017년도 부터 학생 프리랜서로 활동하며 만들게 된 나만의 브랜드 채다디자인(Cheda Design). 본명에서 '채'를 따고, Money의 의미를 지닌 Chedda에 기초하 여 네이밍 하게 되었다.미니멀 스타일의 로고와 강렬 한 yellow 컬러의 톤 앤 매너를 가진다.
+
+"Cheda Design," a brand of my own is started in 2017 as a student freelancer. I got a 'chae' from my real name and came to naming on the basis of 'Cedda', which means Money. It has a minimal style logo and powerful yellow color tone and manner. 
+programmed HTML, CSS, JS
