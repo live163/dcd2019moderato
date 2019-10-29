@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>slide</title>
+        <style>
+            [id^=slide]{
+                display: none;
+            }
+
+            .sliUp{
+                float: right;
+                font-size: 30px;
+                color: white;
+                width: 30px;
+                height: 30px;
+                background-color: darkgrey;
+                text-align: center;
+            }
+        </style>
+        <script src="../js/jquery.js"></script>
+        <script>
+            $(function(){
+                $(".sliDown").on("click", function() {
+                    $("#slide1").slideDown(500);
+                });
+                $("#slide1",).on("click", function() {
+                    $("#slide1").slideUp(500);
+                });
+
+                $(".sliDown2").on("click", function() {
+                    $("#slide2").slideDown(500);
+                });
+                $("#slide2").on("click", function() {
+                    $("#slide2").slideUp(500);
+                });
+            });
+        
+        </script>
+    </head>
+    <body>
+        <div class="sliDown">more</div>
+        <div class="sliDown2">more</div>
+        <div id="slide1">
+            <img src="image.jpg" width="95%">
+        </div>
+
+        <div id="slide2">
+            <img src="image2.jpg" width="95%">
+        </div>
+
+    ㅇ아아아
+        
+    </body>
+    </html>

@@ -6,9 +6,13 @@
         <link href="../../basic.css" rel="stylesheet" type="text/css">
         <link href="../../basic_s.css" rel="stylesheet" type="text/css">
         <style>
+            [id^=slide] {
+                display: none;
+            }
 
         </style>
-        <script src="js/jquery.js"></script>
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/inter.js"></script>
         <script>
 
         </script>
@@ -38,6 +42,7 @@
                         <div class="content">
                             <div class="subTitle">
                                     <span class="ko">돈스모크</span>
+                                    &nbsp;<span id="more1">more</span>
                             </div>
                             <br>
                             <span class="nam">고성국 이주은</span>
@@ -67,7 +72,8 @@
                         </div>
                         <div class="content">
                             <div class="subTitle">
-                                    CUSTOM ART TOY 
+                                    CUSTOM ART TOY  
+                                &nbsp;<span id="more2">more</span>
                             </div>
                             <br>
                             <span class="nam">김대환 김성욱</span>
@@ -86,7 +92,14 @@
                 </td>
             </tr>
         </table>
-
+        <div id="slide1">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/leejueun.jpg" width="100%">
+        </div>
+        <div id="slide2">
+                <div class="delete">이미지를 클릭하면 접힙니다.</div>
+                <img src="../../interinfo/kimdaehwan.jpg" width="100%">
+            </div>
         <table>
                 <tr>
                     <td>
@@ -97,6 +110,7 @@
                             <div class="content">
                                 <div class="subTitle">
                                         Q NOTE
+                                        &nbsp;<span id="more3">more</span>
                                 </div>
                                 <br>
                                 <span class="nam">김수지 이승아</span>
@@ -117,6 +131,7 @@
                             <div class="content">
                                 <div class="subTitle">
                                     OtT
+                                    &nbsp;<span id="more4">more</span>
                                 </div>
                                 <br>
                                 <span class="nam">김지혜 박소영 서효지</span>
@@ -126,14 +141,22 @@
                                 <div class="intex"> 
                                         매년 패션의 유행이 바뀌면서 그에 따라 새로운 의상들이 꾸준히 판매된다.
                                         평소 유행이나 의상에 관심이 많거나 패션 센스가 있는 사람이 아니면 옷을 구입하더라도
-                                        코디네이션을 하지 못해 난감해 하는 경우가 많다. 이러한 사람들을 위해서 모 패션 코디와 의상 추천
-                                        서비스를 제공하는 감성 코디 'OtT'를 기획하였다.
+                                        코디네이션을 하지 못해 난감해 하는 경우가 많다. 이러한 사람들을 위해서 패션 코디와 의상 추천
+                                        서비스를 제공하는 감성 코디 앱 'OtT'를 기획하였다.
                                 </div>
                             </div>
                         </div>                    
                     </td>
                 </tr>
         </table>
+        <div id="slide3">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/kimsuji.jpg" width="100%">
+        </div>
+        <div id="slide4">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/seohyoji.jpg" width="100%">
+        </div>
 
         <table>
             <tr>
@@ -145,6 +168,7 @@
                     <div class="content">
                         <div class="subTitle">
                                 COMPEFiTTION
+                                &nbsp;<span id="more5">more</span>
                         </div>
                         <br>
                         <span class="nam">김채은 최수빈</span>
@@ -167,6 +191,7 @@
                     <div class="content">
                         <div class="subTitle">
                                 PETEL
+                                &nbsp;<span id="more6">more</span>
                         </div>
                         <br>
                         <span class="nam">박기빈</span>
@@ -181,7 +206,14 @@
             </td>
             </tr>
         </table> 
-        
+        <div id="slide5">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/kimchaeeun.jpg" width="100%">
+        </div>
+        <div id="slide6">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/parkgibin.jpg" width="100%">
+        </div>
         <table>
             <tr>
             <td>
@@ -192,6 +224,7 @@
                     <div class="content">
                         <div class="subTitle">
                                 VENUS 
+                                &nbsp;<span id="more7">more</span>
                         </div>
                         <br>
                         <span class="nam">박효연 전유정</span>
@@ -212,6 +245,7 @@
                     <div class="content">
                         <div class="subTitle">
                                 VIEWTY
+                                &nbsp;<span id="more8">more</span>
                         </div>
                         <br>
                         <span class="nam">박수아 송우정 진한성</span>
@@ -232,54 +266,70 @@
             </td>
             </tr>
         </table>
-
+        <div id="slide7">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/jeonyujeong.jpg" width="100%">
+        </div>
+        <div id="slide8">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/jinhansung.jpg" width="100%">
+        </div>
         <table>
-                <tr>
-                <td>
-                    <div class="box1">
-                        <div class="photo">
-                            <img src="ohjeongeun.png" width="300px" height="300px">
+            <tr>
+            <td>
+                <div class="box1">
+                    <div class="photo">
+                        <img src="ohjeongeun.png" width="300px" height="300px">
+                    </div>
+                    <div class="content">
+                        <div class="subTitle">
+                                From Now On
+                                &nbsp;<span id="more9">more</span>
                         </div>
-                        <div class="content">
-                            <div class="subTitle">
-                                    From Now On
-                            </div>
-                            <br>
-                            <span class="nam">김지범 오정은</span>
-                            <br>
-                            <br>
-                            <br>
-                            <div class="intex"> 
-                                    항상 일을 벌여놓지만 쉽게 지치고 목표까지 얼마나 남았는지 알기 쉽지 않아 포기한 적이 많았다. 하지만 다이어리에 할 일을 적고 그날그날 달성한 것에 대해 기록하니 목표 달성률이 올라갔다. 다이어리가 아닌 목표 달성만을 위해 기록할 수 있는 앱이 있었으면 좋겠다는 생각이 들어 프롬나우온 을 기획했다.
-                            </div>
+                        <br>
+                        <span class="nam">김지범 오정은</span>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="intex"> 
+                                항상 일을 벌여놓지만 쉽게 지치고 목표까지 얼마나 남았는지 알기 쉽지 않아 포기한 적이 많았다. 하지만 다이어리에 할 일을 적고 그날그날 달성한 것에 대해 기록하니 목표 달성률이 올라갔다. 다이어리가 아닌 목표 달성만을 위해 기록할 수 있는 앱이 있었으면 좋겠다는 생각이 들어 프롬나우온 을 기획했다.
                         </div>
                     </div>
-                </td>
-                <td>
-                    <div class="box2">
-                        <div class="photo">
-                            <img src="yunnyura.jpg" width="300px" height="300px">
+                </div>
+            </td>
+            <td>
+                <div class="box2">
+                    <div class="photo">
+                        <img src="yunnyura.jpg" width="300px" height="300px">
+                    </div>
+                    <div class="content">
+                        <div class="subTitle">
+                                Green Check
+                                &nbsp;<span id="more10">more</span>
                         </div>
-                        <div class="content">
-                            <div class="subTitle">
-                                    Green Check
-                            </div>
-                            <br>
-                            <span class="nam">김현정 윤유라</span>
-                            <br>
-                            <br>
-                            <br>
-                            <div class="intex"> 
-                                    그린체크는 건강검진 시 겪는 불편함을 전/중/후로 나누어 개선하고자 만든 App이다.
-                                    전자문진 작성 및 제출, 대기상태가 반영된 검진 루트 안내, 전자 검진 결과표 제공, 검진 결과 상담 예약 등 검진과정에서 나타난 불편함을 고려하여 만든 서비스로 사용자가 시간절약, 편리함, 꾸준한 건강관리의 기대효과를 얻을 수 있도록 돕는다.
-                                    사용자가 해당 App이 의료 서비스임을 떠올릴 수 있도록 흰색과 초록색 계통을 메인 컬러로 설정하였으며 가독성이 좋은 고딕체를 사용했다.
-                            </div>
+                        <br>
+                        <span class="nam">김현정 윤유라</span>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="intex"> 
+                                그린체크는 건강검진 시 겪는 불편함을 전/중/후로 나누어 개선하고자 만든 App이다.
+                                전자문진 작성 및 제출, 대기상태가 반영된 검진 루트 안내, 전자 검진 결과표 제공, 검진 결과 상담 예약 등 검진과정에서 나타난 불편함을 고려하여 만든 서비스로 사용자가 시간절약, 편리함, 꾸준한 건강관리의 기대효과를 얻을 수 있도록 돕는다.
+                                사용자가 해당 App이 의료 서비스임을 떠올릴 수 있도록 흰색과 초록색 계통을 메인 컬러로 설정하였으며 가독성이 좋은 고딕체를 사용했다.
                         </div>
-                    </div>                    
-                </td>
-                </tr>
-            </table>
-
+                    </div>
+                </div>                    
+            </td>
+            </tr>
+        </table>
+        <div id="slide9">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/kimjibum.jpg" width="100%">
+        </div>
+        <div id="slide10">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/kimhyunjeong.jpg" width="100%">
+        </div>
         <table>
             <tr>
             <td>
@@ -290,6 +340,7 @@
                     <div class="content">
                         <div class="subTitle">
                                 <span class="ko">똑똑톡</span>
+                                &nbsp;<span id="more11">more</span>
                         </div>
                         <br>
                         <span class="nam">이나경 정윤아 최연경</span>
@@ -312,6 +363,7 @@
                     <div class="content">
                         <div class="subTitle">
                                 <span class="ko">어비슬립</span>
+                                &nbsp;<span id="more12">more</span>
                         </div>
                         <br>
                         <span class="nam">이미리 최하은</span>
@@ -333,7 +385,14 @@
             </td>
             </tr>
         </table>
-
+        <div id="slide11">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/leenakyeong.jpg" width="100%">
+        </div>
+        <div id="slide12">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/leemiri.jpg" width="100%">
+        </div>
         <table>
             <tr>
             <td>
@@ -344,6 +403,7 @@
                     <div class="content">
                         <div class="subTitle">
                                 HERTZ
+                                &nbsp;<span id="more13">more</span>
                         </div>
                         <br>
                         <span class="nam">류정원 이규원</span>
@@ -370,6 +430,7 @@
                     <div class="content">
                         <div class="subTitle">
                                 <span class="ko">니옵내옵</span>
+                                &nbsp;<span id="more14">more</span>
                         </div>
                         <br>
                         <span class="nam">황수정</span>
@@ -384,7 +445,14 @@
             </td>
             </tr>
         </table>
-
+        <div id="slide13">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/leegyuwon.jpg" width="100%">
+        </div>
+        <div id="slide14">
+            <div class="delete">이미지를 클릭하면 접힙니다.</div>
+            <img src="../../interinfo/hwangsujeong.jpg" width="100%">
+        </div>
     </div>
 
     </body>
